@@ -29,10 +29,10 @@ public class SwaggerConfig {
 
     private ApiInfo apiInfo(){
         return new ApiInfoBuilder()
-                .title("用户服务接口文档")
-                .description("用户服务接口文档")
-                .contact(new Contact("YML", "https://www.baidu.com", "yml@xxxx.com"))
-                .termsOfServiceUrl("https://www.zybuluo.com/mdeditor#2281023-full-reader")
+                .title("eternal接口文档")
+                .description("eternal接口文档")
+                .contact(new Contact("eternal", "", "1330072636@qq.com"))
+                .termsOfServiceUrl("")
                 .version("1.0")
                 .build();
     }
